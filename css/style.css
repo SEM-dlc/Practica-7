@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7a7a7a;
+}
+.areaPrincipal{
+    width: auto;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-bacbackground-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#encabezado {
+    height: 240px;
+    text-align: center;
+    background-image: url(../imagenes/logo.jpg);
+    background-size: 210px 210px;
+}
+
+.piePagina{
+    width: auto;
+    height: auto;
+    background: #15101b;
+    color: white;
+    bottom: 0%;
+    position: fixed;
+    left: 0;
+}
+
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+#datos{
+    width: 80%;
+    background-color: #1d4d19;
+    height:800px;
+    margin: auto;
+    opacity: 1;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+.productos {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+
+.producto {
+    width: 45%; 
+    text-align: center; 
+    border: 1px solid #ddd; 
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
